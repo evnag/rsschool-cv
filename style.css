@@ -1,8 +1,22 @@
-body{
-margin: 0;
-padding: 0;
-border: 0;
-overflow: hidden;
-height: 100%; 
-max-height: 100%; 
-}
+.wrapper { }
+.header { }
+.container { }
+.header__row { }
+.header__menu { }
+.menu { }
+.menu__body { }
+.menu__list { }
+.menu__list_link { }
+.content { }
+.logo-row { }
+.header__logo { }
+.first-row__title { }
+.content-block { }
+.content-block__row { }
+.content-block__column { }
+.content-block__item { }
+.content-block__title { }
+.content-block__text { }
+.footer { }
+.footer__row { }
+.footer__item { }
