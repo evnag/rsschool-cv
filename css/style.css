@@ -84,7 +84,7 @@ body {
 	height: 160px;
     border-radius: 50%;
     border: 3px solid #2c2f33;
-    background: url(/img/user.jpg) no-repeat;
+    background: url(../img/user.jpg) no-repeat;
     background-size: 200px auto;
 }
 .logo-row__title {
