@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/iconsfont.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>CV for RSSchool</title>
 </head>
 <body>
@@ -12,15 +13,16 @@
         <header class="header">
             <div class="container">
                 <div class="header__row">
-                    <div class="header__menu menu">
+                    <div class="header__menu">
                         <nav class="menu__body">
                             <ul class="menu__list">
-                                <li><a href="#" class="menu__list_link">Summary</a></li>
-                                <li><a href="#" class="menu__list_link">Skills</a></li>
-                                <li><a href="#" class="menu__list_link">English</a></li>
-                                <li><a href="#" class="menu__list_link">Education</a></li>
-                                <li><a href="#" class="menu__list_link">Courses</a></li>
-                                <li><a href="#" class="menu__list_link">Contacts</a></li>
+                                <li><a href="#about" class="menu__list_link">About me</a></li>
+                                <li><a href="#education" class="menu__list_link">Education</a></li>
+                                <li><a href="#skills" class="menu__list_link">Skills</a></li>
+                                <li><a href="#courses" class="menu__list_link">Courses</a></li>
+                                <li><a href="#code" class="menu__list_link">Code</a></li>
+                                <li><a href="#languages" class="menu__list_link">Languages</a></li>
+                                <li><a href="#contacts" class="menu__list_link">Contacts</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -40,21 +42,12 @@
                 </div>
                 <div class="content-block">
                     <div class="content-block__row">
-                        <div class="content-block__column">
-                            <div class="content-block__item">
-                                <h2 class="content-block__title">Summary</h2>
-                                <div class="content-block__text">
-                                    I started to get involved in programming while still at university. Writing code remains a hobby for me, since I work in a field far from IT.
+                        <div class="content-block__item">
+                            <h2 id="about" class="content-block__title left-right-line">About me</h2>
+                            <div class="content-block__text">
+                                I started to get involved in programming while still at university. Writing code remains a hobby for me, since I work in a field far from IT.
 But the day is not far off when programming will become a profession for me. My goal today is to gain deep knowledge in front-end development, learn JavaScript and one of the frameworks, React or Angular.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-block__column">
-                            <div class="content-block__item">
-                                <h2 class="content-block__title">Skills</h2>
-                                <div class="content-block__text">
-                                    C#, .NET Core, EFramework, HTML5, CSS3, GIT, Github
-                                </div>
+While not forgetting about .NET. Find teammates for joint motivation and development.
                             </div>
                         </div>
                     </div>
@@ -63,49 +56,78 @@ But the day is not far off when programming will become a profession for me. My 
                     <div class="content-block__row">
                         <div class="content-block__column">
                             <div class="content-block__item">
-                                <h2 class="content-block__title">Languages</h2>
-                                <div class="content-block__text">
-                                    <ul>
-                                        <li><b><i>Russian</i></b> - Native</li>
-                                        <li><b><i>English</i></b> - B1/Pre-Intermediate</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content-block__column">
-                            <div class="content-block__item">
-                                <h2 class="content-block__title">Education</h2>
+                                <h2 id="education" class="content-block__title under-line">Education</h2>
                                 <div class="content-block__text">
                                     Moscow State University for the Humanities and Economics
                                 </div>
                             </div>
                         </div>
+                        <div class="content-block__column">
+                            <div class="content-block__item">
+                                <h2 id="skills" class="content-block__title under-line">Skills</h2>
+                                <div class="content-block__text">
+                                    C#, .NET Framework, .NET Core, EF Core, HTML5, CSS3, GIT, Github
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="content-block">
                     <div class="content-block__row">
                         <div class="content-block__column">
                             <div class="content-block__item">
-                                <h2 class="content-block__title stripe">Courses</h2>
+                                <h2 id="courses" class="content-block__title under-line">Courses</h2>
                                 <div class="content-block__text">
                                     <ul>
-                                        <li><b><i>C# Basic Video Course (OOP)</i></b> - ITVDN</li>
-                                        <li><b><i>C# Advanced</i></b> - ITVDN</li>
-                                        <li><b><i>GIT Basic</i></b> - ITVDN</li>
+                                        <li>C# Basic Video Course (OOP) - ITVDN</li>
+                                        <li>C# Advanced - ITVDN</li>
+                                        <li>GIT Basic - ITVDN</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="content-block__column">
                             <div class="content-block__item">
-                                <h2 class="content-block__title">Contacts</h2>
+                                <h2 id="code" class="content-block__title under-line">Code</h2>
+                                <div class="content-block__text">
+                                    <pre><code>
+<!--                                 -->public class Kata
+<!--                                 -->{
+    <!--                                 -->public static int BreakChocolate(int n, int m)
+    <!--                                 -->{
+    <!--                                 -->    //a miracle occurs...
+    <!--                                 -->    return (n &gt; 0 & m &gt; 0) ? n*m -1 : 0;
+    <!--                                 -->}
+<!--                                 -->}
+                                    </code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-block">
+                    <div class="content-block__row">
+                        <div class="content-block__column">
+                            <div class="content-block__item">
+                                <h2 id="languages" class="content-block__title under-line">Languages</h2>
+                                <div class="content-block__text">
+                                    <ul>
+                                        <li>Russian - Native</li>
+                                        <li>English - B1/Pre-Intermediate</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-block__column">
+                            <div class="content-block__item">
+                                <h2 id="contacts" class="content-block__title under-line">Contacts</h2>
                                 <div class="content-block__text">
                                     <ul class="social-menu">
-                                        <li>Vladimir, Russia</li>
-                                        <li><a href="https://github.com/evnag" class="social-menu__link">Github: @evnag</a></li>
-                                        <li><a href="https://t.me/evnag" class="social-menu__link">Telegram: @evnag</a></li>
-                                        <li><a href="#" class="social-menu__link">Discord: evnag#4960</a></li>
-                                        <li><a href="mailto:nagich.ev@yandex.ru" class="social-menu__link">Email: nagich.ev@yandex.ru</a></li>
+                                        <li class="_icon-location">Vladimir, Russia</li>
+                                        <li><a href="https://github.com/evnag" class="_icon-github">Github: @evnag</a></li>
+                                        <li><a href="https://t.me/evnag" class="_icon-telegram">Telegram: @evnag</a></li>
+                                        <li><a href="#" class="_icon-discord">Discord: evnag#4960</a></li>
+                                        <li><a href="mailto:nagich.ev@yandex.ru" class="_icon-email">Email: nagich.ev@yandex.ru</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -118,7 +140,7 @@ But the day is not far off when programming will become a profession for me. My 
             <div class="container">
                 <div class="footer__row">
                     <div class="footer__item">
-                        <a href="https://github.com/evnag">© 2020  evnag</a>
+                        <a href="https://github.com/evnag">© 2022  evnag</a>
                     </div>
                     <a href="https://rs.school/js/" class="rss-logo"></a>
                 </div>
