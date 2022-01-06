@@ -80,13 +80,17 @@ body {
     margin: 0px 0px 40px 0px;
 }
 .logo-row__img {
-    width: 160px;
-	height: 160px;
-    border-radius: 50%;
-    border: 3px solid #2c2f33;
-    background: url(../img/user.jpg) no-repeat;
-    background-size: 200px auto;
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
 }
+.logo-row__img img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+
 .logo-row__title {
     font-size: 50px;
 	margin: 0px 0px 10px 0px;
